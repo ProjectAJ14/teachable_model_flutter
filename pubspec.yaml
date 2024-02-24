@@ -1,0 +1,27 @@
+name: teachable_model_flutter
+description: "A new Flutter project to recognize your own images, sounds, & poses using Tflite"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image: ^4.1.7
+  camera: ^0.10.5+9
+  image_picker: ^1.0.7
+  tflite_flutter: ^0.10.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
